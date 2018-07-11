@@ -1,0 +1,41 @@
+y= 431314
+x = str(y)
+print(len(x))
+
+
+first_name = "Frances"
+middle_name = "E."
+last_name = "Allen"
+year = 1932
+
+full_info = "{} {} {}. Born in {}.".format(first_name, middle_name, last_name, year)
+
+#x = 18108
+#y = 252685
+#z = 253333
+#time = 1143.45369 # In seconds
+
+#full_info = "Pythag x y and z are {} {} {}. took {:.2f} secs lol.".format(x, y, z, time/60)
+
+#print(full_info)
+
+#w = int(input("Width of rectangle ="))
+#h = int(input("Height of rectangle ="))
+
+#print(w+w+h+h)
+
+#name = input("What is your name, human?")
+
+#job = input("What is your dream job, human?")
+
+#print( "Hello {}! I also want to be a {}.".format(name, job) )
+
+
+
+
+adjective = input("Give me a nice adjective:")
+noun = input("Give me a noun:")
+verb = input("Give me a word ending with ing:")
+adjective2 = input("Give me a different adjective:")
+
+print("Hello. Good morning.'You are very {}. I think you look like a {}. Stop {} and look at me. Nevermind you are actually {}.".format(adjective, noun, verb, adjective2))
