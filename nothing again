@@ -1,0 +1,38 @@
+
+
+def sum_digits(m):
+  total=0
+  for digits in str(m):
+    total += int(digits)
+    return total
+print(sum_digits(23))
+
+
+for numbers in range(100):
+  if numbers%17==0:
+    print(numbers)
+
+    # Solve 17x + 11y = 211
+# Assume both x < 20 and y < 20.
+for x in range (20):
+  for y in range(20):
+    if x*17+y*11==211:
+     print(x,y)
+     break
+
+
+total = 0
+a=3
+while total+a < 1000:
+	total += a
+print(total)
+
+fib1 = 1
+fib2 = 2
+fibn= 1
+while fibn <= 13:
+  fib1 += fib2
+  fibn+=1
+  fib2 += fib1
+  fibn+=1
+print("The", fibn,"th number is", fib2 )
